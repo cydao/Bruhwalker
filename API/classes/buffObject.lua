@@ -1,0 +1,12 @@
+---@class buffObject
+---@field public is_valid boolean
+---@field public name string
+---@field public type number
+---@field public source_id number
+---@field public count number
+---@field public stacks number
+---@field public stacks2 number
+---@field public duration number
+---@field public start_time number
+---@field public end_time number
+---@field public hash number

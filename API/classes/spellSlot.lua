@@ -1,0 +1,11 @@
+---@class spellSlot
+---@field public is_valid boolean
+---@field public level number
+---@field public count number
+---@field public toggle_state number
+---@field public cooldown number
+---@field public current_cooldown number
+---@field public current_cooldown2 number
+---@field public current_cooldown3 number
+---@field public spell_data spellData
+---@field public slot number

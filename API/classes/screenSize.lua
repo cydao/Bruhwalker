@@ -1,0 +1,3 @@
+---@class screenSize
+---@field public width number
+---@field public height number

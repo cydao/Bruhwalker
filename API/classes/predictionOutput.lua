@@ -1,0 +1,3 @@
+---@class predictionOutput
+---@field public cast_pos vec3
+---@field public can_cast boolean

@@ -1,0 +1,15 @@
+---@class spellData
+---@field public spell_name string
+---@field public ammo_recharge_time number
+---@field public ammo_used number
+---@field public max_ammo number
+---@field public cast_range number
+---@field public cast_radius number
+---@field public cast_radius_secondary number
+---@field public mana_cost number
+---@field public cooldown number
+---@field public effect_amount number
+---@field public increased_damage number
+---@field public root_duration number
+---@field public missile_speed number
+---@field public width number

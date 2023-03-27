@@ -1,0 +1,5 @@
+---@class dashInfo
+---@field public end_pos vec3
+---@field public dash_speed number
+---@field public duration number
+---@field public start_time number

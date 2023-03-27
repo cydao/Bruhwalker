@@ -1,0 +1,15 @@
+---@class characterState
+---@field public can_attack boolean
+---@field public can_cast boolean
+---@field public can_move boolean
+---@field public is_stealthed boolean
+---@field public has_ghost boolean
+---@field public is_ghosted boolean
+---@field public is_charmed boolean
+---@field public is_supressed boolean
+---@field public is_taunted boolean
+---@field public is_near_sight boolean
+---@field public is_grounded boolean
+---@field public is_slowed boolean
+---@field public is_fleeing boolean
+---@field public state number

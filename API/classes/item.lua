@@ -1,0 +1,7 @@
+---@class Item
+---@field public item_id number
+---@field public count number
+---@field public count2 number
+---@field public purchase_time number
+---@field public slot number
+---@field public spell_slot number

@@ -1,0 +1,6 @@
+---@class gapcloseData
+---@field public start_pos vec3
+---@field public end_pos vec3
+---@field public end_time number
+---@field public target gameObject
+---@field public spell_name string

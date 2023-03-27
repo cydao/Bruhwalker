@@ -1,0 +1,3 @@
+---@class healthBar
+---@field public is_on_screen boolean
+---@field public pos vec3

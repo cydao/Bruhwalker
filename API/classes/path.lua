@@ -1,0 +1,10 @@
+---@class Path
+---@field public is_dashing boolean
+---@field public is_moving boolean
+---@field public dash_speed number
+---@field public waypoints vec3[]
+---@field public current_waypoints vec3[]
+---@field public dash_pos vec3
+---@field public server_pos vec3
+---@field public clicked_pos vec3
+---@field public velocity vec3

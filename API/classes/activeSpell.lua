@@ -1,0 +1,17 @@
+---@class activeSpell
+---@field public is_valid boolean
+---@field public start_pos vec3
+---@field public end_pos vec3
+---@field public direction vec3
+---@field public spell_name string
+---@field public target_id number
+---@field public slot number
+---@field public level number
+---@field public cooldown number
+---@field public mana_cost number
+---@field public start_time number
+---@field public end_time number
+---@field public cast_end_time number
+---@field public cast_delay number
+---@field public attack_delay number
+---@field public is_autoattack boolean

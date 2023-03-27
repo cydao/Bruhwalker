@@ -1,0 +1,17 @@
+---@class spellArgs
+---@field public spell_name string
+---@field public cast_time number
+---@field public cast_end_time number
+---@field public start_pos pos3
+---@field public end_pos pos3
+---@field public dst_pos pos3
+---@field public direction pos3
+---@field public is_autoattack boolean
+---@field public target gameObject
+---@field public level number
+---@field public mana_cost number
+---@field public missile_speed number
+---@field public cast_delay number
+---@field public spell_slot_id number
+---@field public spell_slot.level number
+---@field public spell_slot.cooldown number
