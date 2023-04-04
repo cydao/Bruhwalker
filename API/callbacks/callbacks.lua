@@ -125,6 +125,12 @@ function on_object_deleted(object, obj_name, object_type)
 end
 
 ---@param object gameObject
+---@param hash number
+---@return nil
+function on_play_animation(object, hash)
+end
+
+---@param object gameObject
 ---@param spell_name string
 ---@return nil
 function on_possible_interrupt(object, spell_name)

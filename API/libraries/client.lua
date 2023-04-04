@@ -19,6 +19,10 @@ end
 function client:use_issue_order_hook()
 end
 
+---@return boolean
+function client:use_play_animation_hook()
+end
+
 ---@return number
 function client:get_tick_count()
 end
