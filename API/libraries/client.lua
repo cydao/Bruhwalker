@@ -15,6 +15,11 @@ end
 function client:set_event_callback(func_str, callback)
 end
 
+---@param func function
+---@return boolean
+function client:unset_event_callback(func)
+end
+
 ---@return nil
 function client:use_issue_order_hook()
 end
