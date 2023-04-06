@@ -4,7 +4,7 @@ local renderer = {}
 ---@param file_name string
 ---@param width number
 ---@param height number
----@return sprite
+---@return Sprite
 function renderer:add_sprite(file_name, width, height)
 end
 
@@ -136,8 +136,6 @@ end
 ---@param y2 number | screenSize
 ---@param x3 number | screenSize
 ---@param y3 number | screenSize
----@param width string
----@param height number
 ---@param red number
 ---@param green number
 ---@param blue number

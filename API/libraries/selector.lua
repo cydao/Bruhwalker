@@ -2,7 +2,7 @@
 local selector = {}
 
 ---@param range number
----@param selection mode_health | mode_cursor | mode_distance
+---@param selection "mode_health/mode_cursor/mode_distance"
 ---@return gameObject
 function selector:find_target(range, selection)
 end
@@ -24,6 +24,6 @@ end
 
 ---@type selector
 _G.selector = {}
--- _G.mode_health = nil
--- _G.mode_cursor = nil
--- _G.mode_distance = nil
+_G.mode_health = nil
+_G.mode_cursor = nil
+_G.mode_distance = nil

@@ -169,10 +169,10 @@ end
 
 ---@param buff_type number
 ---@return boolean
-function gameobject:has_buff(buff_type)
+function gameobject:has_buff_type(buff_type)
 end
 
----@param rune Rune
+---@param rune any
 ---@return boolean
 function gameobject:has_perk(rune)
 end

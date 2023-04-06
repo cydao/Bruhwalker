@@ -171,7 +171,7 @@ function menu:hide_sub_category(id)
 end
 
 ---@param id number
----@return nill
+---@return nil
 function menu:show_sub_category(id)
 end
 
