@@ -1,4 +1,6 @@
 ---@class game
+---@field public current_terrain_id number
+---@field public selected_terrain_id number
 ---@field public ping number
 ---@field public latency number
 ---@field public fps number
@@ -129,6 +131,11 @@ end
 function game:hash(text)
 end
 
+---@param str string
+---@return boolean
+function game:hash_elf(str)
+end
+
 ---@type game
 _G.game = {}
 _G.PING_VISION = nil
@@ -141,3 +148,10 @@ _G.EMOTE_JOKE = nil
 _G.EMOTE_TAUNT = nil
 _G.EMOTE_DANCE = nil
 _G.EMOTE_LAUGH = nil
+_G.TERRAIN_DEFAULT = 0
+_G.TERRAIN_INFERNAL = 1
+_G.TERRAIN_MOUNTAIN = 2
+_G.TERRAIN_OCEAN = 3
+_G.TERRAIN_WIND = 4
+_G.TERRAIN_HEXTECH = 5
+_G.TERRAIN_CHEMTECH = 6

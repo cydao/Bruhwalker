@@ -179,6 +179,11 @@ end
 function on_tick_always()
 end
 
+---@param terrain_id number
+---@return nil
+function on_terrain_changed(terrain_id)
+end
+
 ---@param msg number
 ---@param wparam number
 ---@return nil

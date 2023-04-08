@@ -205,6 +205,20 @@ end
 function gameobject:can_evolve(slot)
 end
 
+---@return number
+function gameobject:mana_percentage()
+end
+
+---@param bone_name string
+---@return vec3
+function gameobject:get_bone_position(bone_name)
+end
+
+---@param bone_hash number
+---@return vec3
+function gameobject:get_bone_position_hashed(bone_hash)
+end
+
 ---@type gameObject
 _G.gameobject = {}
 _G.PressTheAttack = nil
