@@ -4,10 +4,10 @@ local menu = {}
 
 ---@param text string
 ---@param category_id number
----@param func function
+---@param callback function
 ---@param tool_tip string
 ---@return number
-function menu:add_button(text, category_id, func, tool_tip)
+function menu:add_button(text, category_id, callback, tool_tip)
 end
 
 ---@param text string
