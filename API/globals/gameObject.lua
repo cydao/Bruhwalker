@@ -31,6 +31,7 @@
 ---@field public bounding_radius number
 ---@field public items Item
 ---@field public owner gameObject
+---@field public ward_owner gameObject
 ---@field public active_spell activeSpell
 ---@field public health_bar healthBar
 ---@field public character_state characterState

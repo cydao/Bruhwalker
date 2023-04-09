@@ -36,6 +36,13 @@ end
 function game:is_key_down(key)
 end
 
+---@param x vec3
+---@param y vec3
+---@param z vec3
+---@return boolean
+function game:is_in_fow(x, y, z)
+end
+
 ---@param object_id number
 ---@return gameObject
 function game:get_object(object_id)
