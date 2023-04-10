@@ -19,7 +19,6 @@
 ---@field public turrets gameObject[]
 ---@field public inhibs gameObject[]
 ---@field public nexus gameObject[]
----@field public particles gameObject[]
 ---@field public missiles gameObject[]
 ---@field public pets gameObject[]
 ---@field public wards gameObject[]
