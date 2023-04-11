@@ -72,6 +72,10 @@ end
 function on_game_end()
 end
 
+---@return nil
+function on_game_update()
+end
+
 ---@param object gameObject
 ---@param data gapcloseData
 ---@return nil

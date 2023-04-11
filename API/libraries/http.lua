@@ -2,8 +2,16 @@
 local http = {}
 
 ---@param url string
----@return string
-function http:get(url)
+---@param callback function(success, response)
+---@return nil
+function http:get_async(url, callback)
+end
+
+---@param url string
+---@param file_name string
+---@param callback function(success)
+---@return nil
+function http:download_file_async(url, file_name, callback)
 end
 
 ---@param ip string
@@ -18,12 +26,6 @@ end
 ---@param url string
 ---@return nil
 function http:post_ip(ip, port, url)
-end
-
----@param url string
----@param file_name string
----@return string
-function http:download_file(url, file_name)
 end
 
 ---@type http
