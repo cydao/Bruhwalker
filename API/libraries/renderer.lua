@@ -92,12 +92,13 @@ end
 ---@param x number | screenSize
 ---@param y number | screenSize
 ---@param text string
+---@param size number
 ---@param red number
 ---@param green number
 ---@param blue number
 ---@param alpha number
 ---@return nil
-function renderer:draw_text_size(x, y, text, red, green, blue, alpha)
+function renderer:draw_text_size(x, y, text, size, red, green, blue, alpha)
 end
 
 ---@param x number | screenSize
