@@ -60,6 +60,17 @@ end
 function client:load_lua_config()
 end
 
+---@param name string
+---@return nil
+function client:set_dependency_ready(name)
+end
+
+---@param name string
+---@param callback function()
+---@return nil
+function client:set_dependency_ready_callback(name, callback)
+end
+
 ---@type client
 _G.client = {}
 _G.MODE_COMBO = nil

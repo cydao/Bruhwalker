@@ -23,5 +23,25 @@ end
 function vec3:normalized()
 end
 
+---@param vec vec3
+---@return vec3
+function vec3:add(vec)
+end
+
+---@param vec vec3
+---@return vec3
+function vec3:subtract(vec)
+end
+
+---@param vec vec3
+---@return vec3
+function vec3:multiply(vec)
+end
+
+---@param vec vec3
+---@return vec3
+function vec3:divide(vec)
+end
+
 ---@type vec3
 _G.vec3 = {}
