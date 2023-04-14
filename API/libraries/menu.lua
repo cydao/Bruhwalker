@@ -194,5 +194,11 @@ end
 function menu:set_callback(control_id, callback)
 end
 
+---@param control_id number
+---@param table table
+---@return boolean
+function menu:change_table(control_id, table)
+end
+
 ---@type menu
 _G.menu = {}
