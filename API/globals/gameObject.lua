@@ -18,6 +18,7 @@
 ---@field public bonus_armor number
 ---@field public mr number
 ---@field public bonus_mr number
+---@field public death_timer_remaining number
 ---@field public passive_end_time number
 ---@field public passive_cooldown number
 ---@field public is_passive_cd boolean

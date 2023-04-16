@@ -144,12 +144,12 @@ end
 
 ---@type game
 _G.game = {}
-_G.PING_VISION = nil
-_G.PING_ASSIST = nil
-_G.PING_ONMYWAY = nil
-_G.PING_MISSING = nil
-_G.PING_DANGER = nil
-_G.PING_DEFAULT = nil
+_G.PING_VISION = 7
+_G.PING_ASSIST = 5
+_G.PING_ONMYWAY = 4
+_G.PING_MISSING = 3
+_G.PING_DANGER = 2
+_G.PING_DEFAULT = 1
 _G.EMOTE_JOKE = nil
 _G.EMOTE_TAUNT = nil
 _G.EMOTE_DANCE = nil
