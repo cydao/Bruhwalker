@@ -200,5 +200,11 @@ end
 function menu:change_table(control_id, table)
 end
 
+---@param control_id number
+---@param str string
+---@return boolean
+function menu:change_label(control_id, str)
+end
+
 ---@type menu
 _G.menu = {}

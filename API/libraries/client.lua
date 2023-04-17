@@ -71,6 +71,10 @@ end
 function client:set_dependency_ready_callback(name, callback)
 end
 
+---@return nil
+function client:force_reload()
+end
+
 ---@type client
 _G.client = {}
 _G.MODE_COMBO = nil
