@@ -3,14 +3,6 @@
 local menu = {}
 
 ---@param text string
----@param category_id number
----@param callback function
----@param tool_tip string
----@return number
-function menu:add_button(text, category_id, callback, tool_tip)
-end
-
----@param text string
 ---@return number
 function menu:add_category(text)
 end
@@ -192,6 +184,14 @@ end
 ---@param callback function
 ---@return nil
 function menu:set_callback(control_id, callback)
+end
+
+---@param text string
+---@param category_id number
+---@param callback function
+---@param tool_tip string
+---@return number
+function menu:add_button(text, category_id, callback, tool_tip)
 end
 
 ---@param control_id number

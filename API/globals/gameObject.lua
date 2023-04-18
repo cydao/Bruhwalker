@@ -18,7 +18,6 @@
 ---@field public bonus_armor number
 ---@field public mr number
 ---@field public bonus_mr number
----@field public death_timer_remaining number
 ---@field public passive_end_time number
 ---@field public passive_cooldown number
 ---@field public is_passive_cd boolean
@@ -29,6 +28,7 @@
 ---@field public move_speed number
 ---@field public base_attack_range number
 ---@field public attack_range number
+---@field public bonus_attack_range number
 ---@field public bounding_radius number
 ---@field public items Item
 ---@field public owner gameObject
@@ -68,7 +68,6 @@
 ---@field public is_nexus boolean
 ---@field public is_inhib boolean
 ---@field public is_missile boolean
----@field public is_epic_monster boolean
 ---@field public missile_data missileData
 ---@field public origin vec3
 ---@field public originMM vec3
@@ -88,7 +87,6 @@
 ---@field public ability_power number
 ---@field public attack_speed number
 ---@field public bonus_attack_speed number
----@field public bonus_attack_range number
 ---@field public attack_cast_delay number
 ---@field public attack_delay number
 ---@field public buffs buffObject
@@ -104,6 +102,8 @@
 ---@field public target_attachment gameObject
 ---@field public bbox_min vec3
 ---@field public bbox_max vec3
+---@field public is_epic_monster boolean
+---@field public death_timer_remaining number
 local gameobject = {}
 
 ---@param target gameObject
@@ -183,6 +183,10 @@ end
 function gameobject:health_percentage()
 end
 
+---@return number
+function gameobject:mana_percentage()
+end
+
 ---@param vec3 vec3
 ---@return number
 function gameobject:distance_to(vec3)
@@ -205,10 +209,6 @@ end
 ---@param slot number
 ---@return boolean
 function gameobject:can_evolve(slot)
-end
-
----@return number
-function gameobject:mana_percentage()
 end
 
 ---@param bone_name string

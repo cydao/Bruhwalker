@@ -193,3 +193,7 @@ end
 ---@return nil
 function on_wnd_proc(msg, wparam)
 end
+
+---@return nil
+function on_game_ended()
+end

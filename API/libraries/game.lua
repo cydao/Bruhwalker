@@ -1,6 +1,4 @@
 ---@class game
----@field public current_terrain_id number
----@field public selected_terrain_id number
 ---@field public ping number
 ---@field public latency number
 ---@field public fps number
@@ -12,6 +10,8 @@
 ---@field public local_player gameObject
 ---@field public is_chat_opened boolean
 ---@field public is_camera_centered boolean
+---@field public current_terrain_id number
+---@field public selected_terrain_id number
 ---@field public players gameObject[]
 ---@field public minions gameObject[]
 ---@field public jungle_minions gameObject[]
@@ -26,7 +26,7 @@
 local game = {}
 
 ---@param bool boolean
----@return boolean
+---@return nil
 function game:set_camera_lock(bool)
 end
 
@@ -35,28 +35,21 @@ end
 function game:is_key_down(key)
 end
 
----@param x vec3
----@param y vec3
----@param z vec3
----@return boolean
-function game:is_in_fow(x, y, z)
-end
-
 ---@param object_id number
 ---@return gameObject
 function game:get_object(object_id)
 end
 
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number|vec3
+---@param y number|vec3
+---@param z number|vec3
 ---@return vec3
 function game:world_to_screen(x, y, z)
 end
 
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number|vec3
+---@param y number|vec3
+---@param z number|vec3
 ---@return vec3
 function game:world_to_screen_2(x, y, z)
 end
@@ -70,15 +63,15 @@ end
 function game:send_chat(text)
 end
 
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
----@param ping_type any
+---@param x number|vec3
+---@param y number|vec3
+---@param z number|vec3
+---@param ping_type number
 ---@return nil
 function game:send_ping(x, y, z, ping_type)
 end
 
----@param emote_type any
+---@param emote_type number
 ---@return nil
 function game:send_emote(emote_type)
 end
@@ -108,8 +101,8 @@ end
 function game:print_chat(text)
 end
 
----@param x number | screenSize
----@param y number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
 ---@return nil
 function game:set_mouse_pos(x, y)
 end
@@ -140,6 +133,13 @@ end
 ---@param str string
 ---@return boolean
 function game:hash_elf(str)
+end
+
+---@param x vec3
+---@param y vec3
+---@param z vec3
+---@return boolean
+function game:is_in_fow(x, y, z)
 end
 
 ---@type game

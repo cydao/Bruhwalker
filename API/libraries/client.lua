@@ -9,10 +9,10 @@ local client = {}
 function client:load(str)
 end
 
----@param func_str string
+---@param event string
 ---@param callback function
 ---@return nil
-function client:set_event_callback(func_str, callback)
+function client:set_event_callback(event, callback)
 end
 
 ---@param func function
@@ -21,11 +21,11 @@ function client:unset_event_callback(func)
 end
 
 ---@return nil
-function client:use_issue_order_hook()
+function client:force_reload()
 end
 
----@return boolean
-function client:use_play_animation_hook()
+---@return nil
+function client:use_issue_order_hook()
 end
 
 ---@return number
@@ -49,6 +49,11 @@ function client:set_mode(mode)
 end
 
 ---@return boolean
+function client:use_play_animation_hook()
+end
+
+
+---@return boolean
 function client:is_focus()
 end
 
@@ -69,10 +74,6 @@ end
 ---@param callback function()
 ---@return nil
 function client:set_dependency_ready_callback(name, callback)
-end
-
----@return nil
-function client:force_reload()
 end
 
 ---@type client

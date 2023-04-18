@@ -8,9 +8,9 @@
 ---@field public is_on_screen boolean
 local vec3 = {}
 
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number
+---@param y number
+---@param z number
 ---@return vec3
 function vec3.new(x, y, z)
 end

@@ -26,12 +26,12 @@ end
 function evade:is_dangerous(pos)
 end
 
----@param start vec3
----@param end vec3
+---@param start_pos vec3
+---@param end_pos vec3
 ---@param speed number
 ---@param delay number
 ---@return boolean
-function evade:is_dangerous_path(start, end, speed, delay)
+function evade:is_dangerous_path(start_pos, end_pos, speed, delay)
 end
 
 ---@param skillshots table
