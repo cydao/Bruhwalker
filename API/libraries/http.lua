@@ -4,15 +4,17 @@ local http = {}
 ---@param ip string
 ---@param port number
 ---@param url string
+---@param callback function(success, response)
 ---@return string
-function http:get_ip(ip, port, url)
+function http:get_ip_async(ip, port, url, callback)
 end
 
 ---@param ip string
 ---@param port number
 ---@param url string
+---@param callback function(success, response)
 ---@return nil
-function http:post_ip(ip, port, url)
+function http:post_ip_async(ip, port, url, callback)
 end
 
 ---@param url string
