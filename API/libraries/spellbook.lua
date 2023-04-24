@@ -8,12 +8,12 @@ end
 
 ---@param spell_slot any
 ---@param cast_delay number
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
----@param x1 number | vec3
----@param y1 number | vec3
----@param z1 number | vec3
+---@param x number|vec3
+---@param y number|vec3
+---@param z number|vec3
+---@param x1 number|vec3
+---@param y1 number|vec3
+---@param z1 number|vec3
 ---@return nil
 function spellbook:cast_spell(spell_slot, cast_delay, x, y, z, x1, y1, z1)
 end
@@ -27,18 +27,18 @@ end
 
 ---@param spell_slot any
 ---@param cast_delay number
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number|vec3
+---@param y number|vec3
+---@param z number|vec3
 ---@return nil
 function spellbook:release_charged_spell(spell_slot, cast_delay, x, y, z)
 end
 
 ---@param spell_slot any
 ---@param cast_delay number
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number|vec3
+---@param y number|vec3
+---@param z number|vec3
 ---@return nil
 function spellbook:cast_spell_minimap(spell_slot, cast_delay, x, y, z)
 end

@@ -104,6 +104,7 @@
 ---@field public bbox_max vec3
 ---@field public is_epic_monster boolean
 ---@field public death_timer_remaining number
+---@field public last_seen_time number
 local gameobject = {}
 
 ---@param target gameObject

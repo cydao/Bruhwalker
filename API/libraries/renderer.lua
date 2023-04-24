@@ -8,9 +8,9 @@ local renderer = {}
 function renderer:add_sprite(file_name, width, height)
 end
 
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number|vec3
+---@param y number|vec3
+---@param z number|vec3
 ---@param radius number
 ---@param red number
 ---@param green number
@@ -20,9 +20,9 @@ end
 function renderer:draw_circle(x, y, z, radius, red, green, blue, alpha)
 end
 
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number|vec3
+---@param y number|vec3
+---@param z number|vec3
 ---@param radius number
 ---@param red number
 ---@param green number
@@ -32,9 +32,9 @@ end
 function renderer:draw_circle_filled(x, y, z, radius, red, green, blue, alpha)
 end
 
----@param x number | vec3
----@param y number | vec3
----@param z number | vec3
+---@param x number|vec3
+---@param y number|vec3
+---@param z number|vec3
 ---@param radius number
 ---@param thickness number
 ---@param red number
@@ -45,8 +45,8 @@ end
 function renderer:draw_circle_thickness(x, y, z, radius, thickness, red, green, blue, alpha)
 end
 
----@param x number | screenSize
----@param y number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
 ---@param text string
 ---@param red number
 ---@param green number
@@ -56,8 +56,8 @@ end
 function renderer:draw_text(x, y, text, red, green, blue, alpha)
 end
 
----@param x number | screenSize
----@param y number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
 ---@param text string
 ---@param red number
 ---@param green number
@@ -67,8 +67,8 @@ end
 function renderer:draw_text_big(x, y, text, red, green, blue, alpha)
 end
 
----@param x number | screenSize
----@param y number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
 ---@param text string
 ---@param red number
 ---@param green number
@@ -78,8 +78,8 @@ end
 function renderer:draw_text_centered(x, y, text, red, green, blue, alpha)
 end
 
----@param x number | screenSize
----@param y number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
 ---@param text string
 ---@param red number
 ---@param green number
@@ -89,8 +89,8 @@ end
 function renderer:draw_text_big_centered(x, y, text, red, green, blue, alpha)
 end
 
----@param x number | screenSize
----@param y number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
 ---@param text string
 ---@param size number
 ---@param red number
@@ -101,8 +101,8 @@ end
 function renderer:draw_text_size(x, y, text, size, red, green, blue, alpha)
 end
 
----@param x number | screenSize
----@param y number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
 ---@param width string
 ---@param height number
 ---@param red number
@@ -113,8 +113,8 @@ end
 function renderer:draw_rect(x, y, width, height, red, green, blue, alpha)
 end
 
----@param x number | screenSize
----@param y number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
 ---@param width string
 ---@param height number
 ---@param red number
@@ -129,14 +129,14 @@ end
 function renderer:draw_gradrect(x, y, width, height, red, green, blue, alpha, red2, green2, blue2, alpha2)
 end
 
----@param x number | screenSize
----@param y number | screenSize
----@param x1 number | screenSize
----@param y1 number | screenSize
----@param x2 number | screenSize
----@param y2 number | screenSize
----@param x3 number | screenSize
----@param y3 number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
+---@param x1 number|screenSize
+---@param y1 number|screenSize
+---@param x2 number|screenSize
+---@param y2 number|screenSize
+---@param x3 number|screenSize
+---@param y3 number|screenSize
 ---@param red number
 ---@param green number
 ---@param blue number
@@ -145,10 +145,10 @@ end
 function renderer:draw_rect_fill(x, y, x1, y1, x2, y2, x3, y3, red, green, blue, alpha)
 end
 
----@param x number | screenSize
----@param y number | screenSize
----@param x2 number | screenSize
----@param y2 number | screenSize
+---@param x number|screenSize
+---@param y number|screenSize
+---@param x2 number|screenSize
+---@param y2 number|screenSize
 ---@param red number
 ---@param green number
 ---@param blue number
