@@ -222,6 +222,11 @@ end
 function gameobject:get_bone_position_hashed(bone_hash)
 end
 
+---@param check_slow boolean
+---@return number
+function gameobject:get_immobile_duration(check_slow)
+end
+
 ---@type gameObject
 _G.gameobject = {}
 _G.PressTheAttack = nil
