@@ -107,8 +107,10 @@ end
 
 ---@param object gameObject
 ---@param path vec3
+---@param is_dashing boolean
+---@param dash_speed number
 ---@return nil
-function on_new_path(object, path)
+function on_new_path(object, path, is_dashing, dash_speed)
 end
 
 ---@return nil
@@ -196,4 +198,10 @@ end
 
 ---@return nil
 function on_game_ended()
+end
+
+---@param object gameObject
+---@param args spellArgs
+---@return nil
+function on_execute_cast_frame(object, args)
 end

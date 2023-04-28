@@ -9,3 +9,4 @@
 ---@field public current_cooldown3 number
 ---@field public spell_data spellData
 ---@field public slot number
+---@field public state number
